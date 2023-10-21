@@ -53,7 +53,7 @@ $searchtext =     $request->search;
 
 $results =  Hostels::search($searchtext)->get();
 
-
+// worked
 
 
  return view('frontend.search-results' , compact('results'));
